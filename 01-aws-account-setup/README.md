@@ -107,7 +107,6 @@ Switching automatically logs them out from the previous account.
 
 Review: Tested SSO for all users. Only Admin group users have unrestricted access.
 
-![AWS SSO](01-aws-account-setup/images/AWS-SSO.png)
 
 
 Observations
@@ -139,6 +138,7 @@ User Creation![AWS-IAM User creation](images/AWS-IAM User creation.png.jpg)
 Users Overview![IAM Users Creation](images/IAM Users Creation.png.png)
 Group Creation![IAM Group creation](images/IAM Group creation.png.jpg)
 SSO Switch	
+
 
 
 
