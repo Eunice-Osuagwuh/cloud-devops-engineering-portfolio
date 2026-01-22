@@ -115,5 +115,7 @@ Enhanced IAM security practices
 High availability architectures
 
 Author
+
 Eunice Oluwatobi Osuagwuh
+
 AWS Cloud & Infrastructure
