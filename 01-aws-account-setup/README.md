@@ -83,8 +83,8 @@ Create groups: Admin, DevOps, Developer.
 
 Review: Groups are applied to all AWS accounts in the organisation.
 
-Screenshot:
-![IAM Group creation](images/IAM Group creation.png.jpg)
+![IAM Group Creation](images/iam_group_creation.png)
+
 
 Phase 5: Create Users
 
@@ -140,6 +140,7 @@ User Creation![AWS-IAM User creation](images/AWS-IAM User creation.png.jpg)
 Users Overview![IAM Users Creation](images/IAM Users Creation.png.png)
 Group Creation![IAM Group creation](images/IAM Group creation.png.jpg)
 SSO Switch	
+
 
 
 
