@@ -20,14 +20,13 @@
 - [Draw.io](http://draw.io) (for architecture diagrams)  
 - CIDR blocks
 
--![VPC Architecture](images/vpc-architecture.png) 
-
+-![VPC Architecture](images-vpc/vpc-architecture.png)
 ---
 
 ## Step-by-Step Implementation
 
 ### Phase I: VPC Creation
-![VPC Creation](images/vpc-creation.png)
+![VPC Creation](images-vpc/vpc-creation.png)
 
 1. Logged in to AWS Console, navigated to **VPC**, and clicked **Create VPC**.  
 2. Named the VPC.  
@@ -38,7 +37,7 @@
 ---
 
 ### Phase II: Subnet Creation
-![Subnet Design](images/subnet-design.png)
+![Subnet Design](images-vpc/subnet-design.png)
 
 1. Created a **public subnet**: IPv4 `10.0.1.0/24`.  
 2. Created a **private subnet**: IPv4 `10.0.2.0/24`.  
@@ -48,7 +47,7 @@
 ---
 
 ### Phase III: Route Table Configuration
-![Route Table](images/route-table.png)
+![Route Table](images-vpc/route-table.png)
 
 1. Created a **Route Table** and attached it to the VPC.  
 2. Associate both public and private subnets with the route table.  
@@ -58,7 +57,7 @@
 ---
 
 ### Phase IV: Internet Gateway
-![Internet Gateway](images/internet-gateway.png)
+![Internet Gateway](images-vpc/internet-gateway.png)
 
 1. Created an Internet Gateway and attached it to the VPC.  
 2. Edited the route table for the public subnet to add a route to `0.0.0.0/0` via IGW.  
@@ -68,7 +67,7 @@
 ---
 
 ### Phase V: Security Groups
-![Security Groups](images/security-groups.png)
+![Security Groups](images-vpc/security-groups.png)
 
 1. Created a Security Group.  
 2. Add inbound rules for HTTP (80) and SSH (22).  
@@ -79,7 +78,7 @@
 ---
 
 ### Phase VI: Network ACLs
-![Network ACLs](images/nacl.png)
+![Network ACLs](images-vpc/nacl.png)
 
 1. Created a Network ACL.  
 2. Add inbound rules:  
