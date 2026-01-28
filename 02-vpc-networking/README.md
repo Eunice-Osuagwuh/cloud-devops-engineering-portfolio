@@ -17,17 +17,17 @@
 - Security Groups (SG)  
 - Network ACLs (NACLs)  
 - Notion (for documentation)  
-- [Draw.io](http://draw.io) (for architecture diagrams)  
-- CIDR blocks
+- [Draw.io](http://draw.io/) (for architecture diagrams)  
+- CIDR blocks  
 
--![VPC Architecture](images-vpc/vps-architecture.png.png)
+![VPC Architecture](images-vpc/vps_architecture.png.png)
+
 ---
 
 ## Step-by-Step Implementation
 
 ### Phase I: VPC Creation
 ![VPC Creation](images-vpc/01-vpc-created.png)
-
 
 1. Logged in to AWS Console, navigated to **VPC**, and clicked **Create VPC**.  
 2. Named the VPC.  
@@ -38,7 +38,7 @@
 ---
 
 ### Phase II: Subnet Creation
-![Subnet Design](images-vpc/subnet-design.png)
+![Subnet Design](images-vpc/02-subnets-created.png)
 
 1. Created a **public subnet**: IPv4 `10.0.1.0/24`.  
 2. Created a **private subnet**: IPv4 `10.0.2.0/24`.  
@@ -48,7 +48,7 @@
 ---
 
 ### Phase III: Route Table Configuration
-![Route Table](images-vpc/route-table.png)
+![Route Table](images-vpc/03-route-table-config.png)
 
 1. Created a **Route Table** and attached it to the VPC.  
 2. Associate both public and private subnets with the route table.  
@@ -58,7 +58,7 @@
 ---
 
 ### Phase IV: Internet Gateway
-![Internet Gateway](images-vpc/internet-gateway.png)
+![Internet Gateway](images-vpc/04-internet-gateway-attached.png)
 
 1. Created an Internet Gateway and attached it to the VPC.  
 2. Edited the route table for the public subnet to add a route to `0.0.0.0/0` via IGW.  
@@ -68,24 +68,24 @@
 ---
 
 ### Phase V: Security Groups
-![Security Groups](images-vpc/security-groups.png)
+![Security Groups](images-vpc/05-security-group-rules.png)
 
 1. Created a Security Group.  
-2. Add inbound rules for HTTP (80) and SSH (22).  
-3. Allow all outbound traffic.  
+2. Added inbound rules for HTTP (80) and SSH (22).  
+3. Allowed all outbound traffic.  
 
 **Review:** Provides instance-level traffic control.
 
 ---
 
 ### Phase VI: Network ACLs
-![Network ACLs](images-vpc/nacl.png)
+![Network ACLs](images-vpc/06-nacl-rules.png)
 
 1. Created a Network ACL.  
-2. Add inbound rules:  
+2. Added inbound rules:  
    - Rule 100: HTTP (80), Allow, Source `0.0.0.0/0`  
-   - Rule 110: SSH (22), Allow, Source `0.0.0.0/0`  
-3. Add outbound rules similarly.  
+    - Rule 110: SSH (22), Allow, Source `0.0.0.0/0`  
+3. Added outbound rules similarly.  
 
 **Review:** Adds subnet-level security.
 
@@ -106,6 +106,27 @@ Secure, scalable AWS networking foundation ready for future projects like EC2, L
 ---
 
 ## Planned Repository Structure
+
+02-vpc-networking/
+     
+    ├── README.md
+
+    └── images-vpc/
+ 
+    ├── 01-vpc-created.png
+   
+    ├── 02-subnets-created.png
+   
+    ├── 03-route-table-config.png
+   
+    ├── 04-internet-gateway-attached.png
+    
+    ├── 05-security-group-rules.png
+   
+    ├── 06-nacl-rules.png
+   
+    └── vps_architecture.png.png
+
 
 
 
