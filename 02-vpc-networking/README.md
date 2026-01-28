@@ -20,7 +20,7 @@
 - [Draw.io](http://draw.io/) (for architecture diagrams)  
 - CIDR blocks  
 
-![VPC Architecture](images-vpc/vps_architecture.png.png)
+![VPC Architecture](images-vpc/vps_architecture.png)
 
 ---
 
@@ -126,6 +126,7 @@ Secure, scalable AWS networking foundation ready for future projects like EC2, L
     ├── 06-nacl-rules.png
    
     └── vps_architecture.png.png
+
 
 
 
