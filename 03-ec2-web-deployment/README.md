@@ -76,7 +76,7 @@ git clone https://github.com/digitalwitchdemo/mediplus.git
 cd mediplus
 sudo mv ./* /var/www/html
 
-![Website Live Ip](images-ec2/09-website-live-ip.png)
+![Website Live Ip](images/09-website-live-ip.png)
 
 Website content now served from Nginx
 
