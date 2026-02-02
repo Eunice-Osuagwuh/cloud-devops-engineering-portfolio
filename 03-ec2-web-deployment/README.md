@@ -61,6 +61,8 @@
 
 ### Phase IV: Install & Verify Nginx
 
+![Website Live IP](images/06-website-live-ip.png)
+
 ```bash
 sudo apt update
 sudo apt upgrade -y
