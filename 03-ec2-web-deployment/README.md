@@ -38,7 +38,7 @@
 ---
 
 ### Phase II: Key Pair & Security Group
-![Key Pair Created](images-ec2/02-key-pair-created.png)
+![Key Pair Created](images-ec2/02-key-pair-created.png)  
 ![Network & Security](images-ec2/03-network-security.png)
 
 - Key Pair allows secure SSH login  
@@ -60,35 +60,28 @@
 ---
 
 ### Phase IV: Install & Verify Nginx
-![Nginx Running](images-ec2/05-nginx-running.png)
 
 ```bash
 sudo apt update
 sudo apt upgrade -y
 sudo apt install nginx -y
 sudo systemctl status nginx
-
-Check the web server by navigating to the public IP in a browser
+Check the web server by navigating to the public IP in a browser.
 
 Phase V: Deploy Website from GitHub
 git clone https://github.com/digitalwitchdemo/mediplus.git
 cd mediplus
 sudo mv ./* /var/www/html
+Website content now served from Nginx.
 
-![Website Live IP](images-ec2/06-website-live-ip.png)
-
-![Website Live Ip](images-ec2/09-website-live-ip.png)
-
-Website content now served from Nginx
 
 
 Phase VI: Domain Name Configuration
 
-![Domain Dns Record](images-ec2/07-domain-dns-record.png)
 
 Use your Namecheap domain (eunicecloud9.online)
 
-Add an A Record pointing to EC2 public IP
+Add an A Record pointing to the EC2 public IP
 
 Optional: Add CNAME for subdomains
 
@@ -98,9 +91,7 @@ Open website via your custom domain
 
 Review: Domain successfully mapped to the EC2 server.
 
-
 Key Concepts Demonstrated
-
 EC2 instance launch & configuration
 
 Security Groups & SSH access
@@ -112,7 +103,6 @@ Web application deployment from GitHub
 Domain mapping and DNS management
 
 Outcome
-![Website Live Ip](images-ec2/08-website-live-ip.png)
 A fully functional web server on AWS EC2 with content deployed from GitHub and accessible via a custom domain.
 
 Planned Repository Structure
@@ -127,5 +117,4 @@ Planned Repository Structure
     ├── 06-website-live-ip.png
     ├── 07-domain-dns-record.png
     ├── 08-domain-live.png
-    └── 09-website-live.png
-
+    └── 09-website-live-ip.png
