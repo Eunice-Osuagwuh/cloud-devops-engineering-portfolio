@@ -76,8 +76,6 @@ git clone https://github.com/digitalwitchdemo/mediplus.git
 cd mediplus
 sudo mv ./* /var/www/html
 
-![Website Live IP](images-ec2/06-website-live-ip.png)
-
 ![Website Live Ip](images-ec2/09-website-live-ip.png)
 
 Website content now served from Nginx
@@ -85,7 +83,7 @@ Website content now served from Nginx
 
 Phase VI: Domain Name Configuration
 
-![Domain Dns Record](images-ec2/07-domain-dns-record.png)
+![Domain Dns Record](images/07-domain-dns-record.png)
 
 Use your Namecheap domain (eunicecloud9.online)
 
