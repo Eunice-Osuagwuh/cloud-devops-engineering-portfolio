@@ -12,8 +12,7 @@ Commands Executed
 
 pwd
 
-Screenshot:linux-azure-vm-demo/Azure-linus-commands.png
-
+![Linux Commands](screenshots/Azure-linus-commands.png)
 ---
 
 # Create a directory and navigate into it
