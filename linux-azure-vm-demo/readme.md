@@ -72,8 +72,8 @@ pwd
 ls
 
 ![Linux Commands](/linux-azure-vm-demo/screenshot/Azure-ssh-key.png)
-Azure cat & ls.png
 
+![Linux Commands](/linux-azure-vm-demo/screenshot/Azure-cat & ls.png)
 ---
 
 # Step 3: Install Git and Node.js
