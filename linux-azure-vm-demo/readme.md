@@ -90,7 +90,7 @@ sudo apt install -y nodejs
 node -v
 npm -v
 
-Screenshot: Azure-nodes.png
+![Linux Commands](/linux-azure-vm-demo/screenshot/Azure-nodes.png)
 
 ---
 
@@ -101,7 +101,7 @@ cd velo-learn
 ls
 cat README.md
 
-Screenshots:
+![Linux Commands](/linux-azure-vm-demo/screenshot/Azure-cat & ls.png)
 
 ls inside repo: Azure-app.png
 
