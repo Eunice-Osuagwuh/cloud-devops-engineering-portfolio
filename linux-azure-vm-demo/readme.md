@@ -26,7 +26,7 @@ cd week1-practice
 
 ls -l
 
-![Linux Commands](/linux-azure-vm-demo/screenshot/azure-linux-commands.png)
+![Linux Commands](/linux-azure-vm-demo/screenshot/azure-ls-notes.png)
 
 ---
 
@@ -34,8 +34,7 @@ ls -l
 
 cat notes.txt
 
-Screenshot: Azure cat-notes.png
-
+![Linux Commands](/linux-azure-vm-demo/screenshot/azure cat-notes.png)
 ---
 
 # Part B – Azure Virtual Machine
