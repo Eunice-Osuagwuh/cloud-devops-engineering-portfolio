@@ -75,7 +75,7 @@ ls
 
 ![Linux Commands](/linux-azure-vm-demo/screenshot/Azure-ssh-key.png)
 
-![Linux Commands](/linux-azure-vm-demo/screenshot/Azure-cat & ls.png)
+![Linux Commands](/linux-azure-vm-demo/screenshot/Azure-cat-ls.png)
 
 ---
 
@@ -104,7 +104,7 @@ cd velo-learn
 ls
 cat README.md
 
-![Linux Commands](/linux-azure-vm-demo/screenshot/Azure-cat & ls.png)
+![Linux Commands](/linux-azure-vm-demo/screenshot/Azure-cat-ls.png)
 
 ls inside repo: Azure-app.png
 
