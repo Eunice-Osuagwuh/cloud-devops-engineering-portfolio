@@ -71,7 +71,8 @@ hostname
 pwd
 ls
 
-Screenshot: Azure-ssh-key.png and Azure cat & ls.png
+![Linux Commands](/linux-azure-vm-demo/screenshot/Azure-ssh-key.png)
+Azure cat & ls.png
 
 ---
 
