@@ -37,8 +37,6 @@ System uptime appeared normal
 
 CPU and memory usage were within the expected range
 
-Screenshot: SSH Process Verification
-
 ---
 
 # SSH Service Status Verification
@@ -142,8 +140,6 @@ Name was added under: Training student, "Eunice Osuagwuh"
 feature/add-name-to-readme → main
 
 -The Pull Request was successfully merged into the forked repository.
-
-Screenshot: Pull Request Merged
 
 This demonstrates understanding of collaborative Git workflows.
 
